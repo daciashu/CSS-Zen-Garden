@@ -34,6 +34,11 @@ section > h2::before {
   color: darken($color-4, 15%);
 }
 
+li {
+  font-family: $secondary-font;
+  color: $color-6;
+}
+
 p {
   font-family: $secondary-font;
   font-size: 1.4rem;

@@ -211,6 +211,11 @@ section > h2::before {
   color: #1b5b60;
 }
 
+li {
+  font-family: "Montserrat", sans-serif;
+  color: #211F38;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;

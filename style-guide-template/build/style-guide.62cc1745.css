@@ -251,16 +251,16 @@ xButtons
   background: #da526c;
 }
 .btn.btn-success {
-  background: #EAAD3B;
+  background: #69BBB3;
 }
 .no-touch .btn.btn-success:hover {
-  background: #ecb752;
+  background: #7bc3bc;
 }
 .btn.btn-alert {
-  background: #D53D5A;
+  background: #EAAD3B;
 }
 .no-touch .btn.btn-alert:hover {
-  background: #da526c;
+  background: #ecb752;
 }
 .btn.btn-outline {
   color: #D53D5A;
@@ -314,12 +314,12 @@ input[type=text] {
   box-shadow: inset 1px 1px rgba(0, 0, 0, 0.03);
 }
 input[type=text].success {
-  border-color: #EAAD3B;
-  box-shadow: 0 0 6px rgba(234, 173, 59, 0.2);
+  border-color: #69BBB3;
+  box-shadow: 0 0 6px rgba(105, 187, 179, 0.2);
 }
 input[type=text].alert {
-  border-color: #D53D5A;
-  box-shadow: 0 0 6px rgba(213, 61, 90, 0.2);
+  border-color: #EAAD3B;
+  box-shadow: 0 0 6px rgba(234, 173, 59, 0.2);
 }
 input[type=text]:focus {
   border-color: #D53D5A;

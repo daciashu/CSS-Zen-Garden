@@ -943,6 +943,15 @@ section:nth-of-type(10) h2::before {
 .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
   background: #f7efdd;
 }
+.cd-colors li:nth-of-type(6) .cd-color-swatch {
+  background: #211F38;
+}
+.cd-colors li:nth-of-type(6) .cd-color-swatch::before {
+  background: #2b2848;
+}
+.cd-colors li:nth-of-type(6) .cd-color-swatch::after {
+  background: #171628;
+}
 @media only screen and (min-width: 768px) {
   .cd-colors li {
     width: 19%;

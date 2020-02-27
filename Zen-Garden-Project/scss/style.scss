@@ -1,0 +1,67 @@
+
+//  Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Pacifico&display=swap');
+$primary-font: 'Pacifico', cursive;
+$secondary-font: 'Montserrat', sans-serif;
+
+// Colors
+
+$color-1: #D53D5A; // Bright Pink
+$color-2: #DA786A; // Light Pink
+$color-3: #69BBB3; // Light Teal
+$color-4: #2C949C; // Dark Teal
+$color-5: #FCF9F2; // White Sand
+$color-6: #211F38; // Dark Navy
+
+// additional colors
+
+$success: $color-3; // Light Teal
+$alert: #EAAD3B; // Golden Sun
+
+
+
+// Page title 
+
+main > h1 {
+    color: $color-2;
+  
+    @include MQ(L) {
+      /* title goes into the header on big devices */
+      color: $color-5;
+    }
+  }
+
+// base styling 
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: $color-6;
+    background-color: $color-3 .8;
+    font-family: $primary-font;
+}
+
+h1, h2 {
+    padding: 0 10%;
+    margin: 0;
+    color: $color-1;
+    font-family: $secondary-font;
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+.summary, .preamble {
+    width: 80%;
+    margin: 0 auto;
+}
